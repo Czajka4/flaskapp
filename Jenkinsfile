@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    imagename = "czajka47/gui"
+    imagename = "czajka47/api"
     registryCredential = 'dockerhub-id'
     dockerImage = ''
   }
@@ -39,6 +39,5 @@ pipeline {
         }
       }
     }
-
   }
 }
